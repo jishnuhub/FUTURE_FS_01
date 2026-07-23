@@ -1,0 +1,93 @@
+/* ===== TABLET AND MOBILE ===== */
+
+@media (max-width: 991px) {
+
+    .custom-navbar {
+        padding: 12px 0;
+    }
+
+    .navbar-nav {
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .nav-link {
+        display: inline-block;
+        margin: 8px 0;
+    }
+
+    .hero {
+        padding: 110px 0 60px;
+        text-align: center;
+    }
+
+    .hero-img {
+        width: 270px;
+        height: 270px;
+        margin-bottom: 35px;
+    }
+
+    .social-icons {
+        margin-bottom: 20px;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .about-img {
+        width: 260px;
+        height: 260px;
+    }
+
+    .about .row .row {
+        text-align: left;
+    }
+
+    .project-card img {
+        height: 220px;
+    }
+}
+
+
+/* ===== SMALL MOBILE ===== */
+
+@media (max-width: 576px) {
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero h3 {
+        font-size: 1.3rem;
+    }
+
+    .hero .lead {
+        font-size: 1rem;
+    }
+
+    .hero-img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .about-img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .contact-form {
+        padding: 25px 18px;
+    }
+
+    .education-card,
+    .skill-box,
+    .project-card .card-body {
+        padding: 20px;
+    }
+
+    #scrollTopBtn {
+        right: 18px;
+        bottom: 18px;
+    }
+}
